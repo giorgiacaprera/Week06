@@ -1,19 +1,18 @@
 from dataclasses import dataclass
 from datetime import datetime
 
-
 # from yelp.business import Business
 # from yelp.business import User
 
 @dataclass
 class Review:
     review_id: str
-    business_id: str #
-    # business : Business ## Alternativa
-    user_id: str
-    # user : User # Alternativa
+    business_id: str # Oppure:
+    # business : Business
+    user_id: str #Oppure:
+    # user : User
     stars: float
-    review_date: datetime.date # str
+    review_date: datetime.date #str
     votes_funny: int
     votes_useful: int
     votes_cool: int

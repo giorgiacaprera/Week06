@@ -1,5 +1,4 @@
-# Classe utilizzata come DTO, per "mappare" una riga
-# della tabella User del database in un oggetto Python
+# Classe utilizzata come DTO, per "mappare" una riga della tabella User
 from dataclasses import dataclass
 
 @dataclass
